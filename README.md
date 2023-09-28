@@ -33,14 +33,17 @@ I have done transfer learning on T5-small. Why small? Because this was a time co
 
 ## Results:
 
+I got good results when I played around custon test cases of input in the notebook.
+ ![alt text](https://github.com/sbthycode/DL5-SmartSense/blob/7630f0b061f20fae785281610b6a2e2451e0a02f/Loss_with_Epochs.png?raw=true)
+
+
 ## To run the model on your machine:
 
 1. Make sure you have trnsformers and torch installed.
 2. Clone the repository.
-3. Update the model path in inference.py file
-4. Run the inference.py file
-5. Give the text in command line input
-6. You will see the output of the text in the command line itself.
+3. Download the final.zip attached in the mail. export it and identify the pytorch_model.bin file.
+4. Update the model path in inference.py file
+5. Run the inference.py file
+6. Give the text in command line input
+7. You will see the output of the text in the command line itself.
 
-
-## How to run for yourself?
